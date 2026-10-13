@@ -608,7 +608,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -682,7 +682,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -1469,7 +1469,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.003"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -1655,7 +1655,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -1715,7 +1715,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -1766,7 +1766,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2007,7 +2007,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2058,7 +2058,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2103,7 +2103,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2134,7 +2134,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2176,7 +2176,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2218,7 +2218,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2264,7 +2264,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2310,7 +2310,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2356,7 +2356,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2402,7 +2402,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2448,7 +2448,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2490,7 +2490,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2544,7 +2544,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2604,7 +2604,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2646,7 +2646,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2688,7 +2688,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2734,7 +2734,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2780,7 +2780,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2826,7 +2826,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2872,7 +2872,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.001"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2923,7 +2923,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -2965,7 +2965,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3025,7 +3025,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3067,7 +3067,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3118,7 +3118,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3160,7 +3160,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.003"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3191,7 +3191,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.003"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3237,7 +3237,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.003"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3482,7 +3482,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.003"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3533,7 +3533,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.003"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3584,7 +3584,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.003"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3615,7 +3615,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.003"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3666,7 +3666,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.003"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3708,7 +3708,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.003"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3764,7 +3764,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3833,7 +3833,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3884,7 +3884,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3926,7 +3926,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -3968,7 +3968,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
@@ -4019,7 +4019,7 @@
                     "price": {
                         "mode": "fixed",
                         "currency": "USD",
-                        "amount": "0.002"
+                        "amount": "0.005"
                     }
                 },
                 "security": [
