@@ -160,11 +160,11 @@
                                         "description": "string (required) - plain-language task"
                                     },
                                     "max_price": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number - max USD per call"
                                     },
                                     "limit": {
-                                        "type": "string",
+                                        "type": "integer",
                                         "description": "integer 1-20, default 5"
                                     }
                                 },
@@ -222,12 +222,15 @@
                                         "description": "string"
                                     },
                                     "price_per_call": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "tags": {
-                                        "type": "string",
-                                        "description": "array of strings"
+                                        "type": "array",
+                                        "description": "array of strings",
+                                        "items": {
+                                            "type": "string"
+                                        }
                                     },
                                     "schema_url": {
                                         "type": "string",
@@ -314,7 +317,6 @@
                                         "description": "\"2.0\""
                                     },
                                     "id": {
-                                        "type": "string",
                                         "description": "any"
                                     },
                                     "method": {
@@ -322,8 +324,9 @@
                                         "description": "string - Solana RPC method"
                                     },
                                     "params": {
-                                        "type": "string",
-                                        "description": "array"
+                                        "type": "array",
+                                        "description": "array",
+                                        "items": {}
                                     }
                                 }
                             }
@@ -449,8 +452,11 @@
                                         "description": "string (or use accounts)"
                                     },
                                     "accounts": {
-                                        "type": "string",
-                                        "description": "array of pubkeys"
+                                        "type": "array",
+                                        "description": "array of pubkeys",
+                                        "items": {
+                                            "type": "string"
+                                        }
                                     },
                                     "priority": {
                                         "type": "string",
@@ -585,15 +591,15 @@
                                         "description": "string - TRON address"
                                     },
                                     "amount_usdt": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "trx_balance_sun": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number (optional)"
                                     },
                                     "contract_call": {
-                                        "type": "string",
+                                        "type": "boolean",
                                         "description": "boolean (optional)"
                                     }
                                 }
@@ -667,7 +673,7 @@
                                 "type": "object",
                                 "properties": {
                                     "voucher": {
-                                        "type": "string",
+                                        "type": "object",
                                         "description": "object {payer (base64 pubkey), amount, nonce, expiry, issued_at, signature (base64 Ed25519)}"
                                     }
                                 }
@@ -718,7 +724,7 @@
                                         "description": "string"
                                     },
                                     "amount": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "status": {
@@ -809,7 +815,7 @@
                                         "description": "string"
                                     },
                                     "amount_usd": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     }
                                 }
@@ -901,7 +907,7 @@
                                         "description": "string"
                                     },
                                     "amount_usd_cents": {
-                                        "type": "string",
+                                        "type": "integer",
                                         "description": "integer"
                                     },
                                     "recipient": {
@@ -956,31 +962,37 @@
                                         "description": "string"
                                     },
                                     "per_tx_limit_cents": {
-                                        "type": "string",
+                                        "type": "integer",
                                         "description": "integer"
                                     },
                                     "daily_limit_cents": {
-                                        "type": "string",
+                                        "type": "integer",
                                         "description": "integer"
                                     },
                                     "weekly_limit_cents": {
-                                        "type": "string",
+                                        "type": "integer",
                                         "description": "integer"
                                     },
                                     "monthly_limit_cents": {
-                                        "type": "string",
+                                        "type": "integer",
                                         "description": "integer"
                                     },
                                     "allowed_categories": {
-                                        "type": "string",
-                                        "description": "array"
+                                        "type": "array",
+                                        "description": "array",
+                                        "items": {
+                                            "type": "string"
+                                        }
                                     },
                                     "blocked_recipients": {
-                                        "type": "string",
-                                        "description": "array"
+                                        "type": "array",
+                                        "description": "array",
+                                        "items": {
+                                            "type": "string"
+                                        }
                                     },
                                     "active": {
-                                        "type": "string",
+                                        "type": "boolean",
                                         "description": "boolean"
                                     }
                                 }
@@ -3282,43 +3294,43 @@
                                 "type": "object",
                                 "properties": {
                                     "price_min": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "price_max": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "change_pct_min": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "change_pct_max": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "volume_min": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "volume_max": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "market_cap_min": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "market_cap_max": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "pe_min": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "pe_max": {
-                                        "type": "string",
+                                        "type": "number",
                                         "description": "number"
                                     },
                                     "sector": {
@@ -3342,11 +3354,11 @@
                                         "description": "string"
                                     },
                                     "limit": {
-                                        "type": "string",
+                                        "type": "integer",
                                         "description": "integer"
                                     },
                                     "offset": {
-                                        "type": "string",
+                                        "type": "integer",
                                         "description": "integer"
                                     }
                                 }
@@ -4239,7 +4251,7 @@
                                         "description": "string - international class 1-45"
                                     },
                                     "limit": {
-                                        "type": "string",
+                                        "type": "integer",
                                         "description": "integer 1-25, default 10"
                                     }
                                 }
@@ -4331,8 +4343,11 @@
                                         "description": "string - mark text to watch for new filings"
                                     },
                                     "serial_numbers": {
-                                        "type": "string",
-                                        "description": "array of 8-digit serial numbers to watch for status changes (max 20)"
+                                        "type": "array",
+                                        "description": "array of 8-digit serial numbers to watch for status changes (max 20)",
+                                        "items": {
+                                            "type": "string"
+                                        }
                                     }
                                 }
                             }
